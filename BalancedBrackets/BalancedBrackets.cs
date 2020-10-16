@@ -32,7 +32,7 @@ namespace BalancedBracketsNS
                 {
                     brackets++;
                 }
-                else if (ch == ']' && brackets >= 0)
+                else if (ch == ']')
                 {
                     brackets--;
                 }
